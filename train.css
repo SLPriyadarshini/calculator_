@@ -1,0 +1,106 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 21px;
+    text-align: center;
+}
+  
+#parent{
+    display: grid;
+    flex-direction: column;
+    margin-top: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 36vw;
+    margin-left: 32vw;
+    
+}
+#operat{
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(4,81px);
+    justify-content: center;
+    align-items: space-around;
+    /*margin: 3vw;*/
+    background-color: beige;
+    width: 30vw;
+    height: 31vw;
+    border: 8px solid orange;
+    border-radius: 20px;
+}
+#disp{
+    width: 30vw;
+    height: 5vw;
+    background-color: azure;
+    border: none;
+    text-align: right;
+    margin-right: 2vw;
+    text-align: center;
+    text-align :center;
+    border: 8px solid orange;
+    border-radius: 20px;
+}
+#disp:focus{
+    width: 30vw;
+    height: 5vw;
+    background-color: rgb(183, 227, 253);
+    border: none;
+    text-align: right;
+    margin-right: 2vw;
+    text-align: center;
+    text-align :center;
+    border: 8px solid orange;
+    border-radius: 20px;
+}
+@media screen and (max-width: 576px) {
+    .butt {
+      width: 10vw;
+      height: 10vw;
+    }
+  }
+  @media screen and (min-width: 576px) {
+    .butt {
+      width: 10vw;
+      height: 10vw;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .butt {
+      width: 10vw;
+      height: 10vw;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .butt {
+      width: 10vw;
+      height: 10vw;
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .butt {
+      width: 10vw;
+      height: 10vw;
+    }
+  }
+.butt{
+    width: 51px;
+    height: 51px;
+    border-radius: 32px;
+    background-color: rgb(194, 199, 199);
+    margin: 1vw;
+    cursor: pointer;
+    border: none;
+    color: rgb(21, 21, 107);
+    font-size: 30px;
+}
+.butt:focus{
+    width: 53px;
+    height: 53px;
+    border-radius: 32px;
+    background-color: rgb(113, 238, 238);
+    margin: 1vw;
+    cursor: pointer;
+    border: none;
+    color: rgb(247, 247, 253);
+    font-size: 30px;
+}
